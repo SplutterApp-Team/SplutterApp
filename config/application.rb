@@ -16,5 +16,6 @@ module SampleApp
     # -- all .rb files in that directory are automatically loaded.
 
     config.serve_static_assets = true
+    config.assets.initialize_on_precompile = true
   end
 end
