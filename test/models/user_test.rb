@@ -31,21 +31,21 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user.valid?
   end
 
-  test "email validation shoul accept valid addresses" do
+  test "email validation shoul reject valid addresses" do
     valid_addresses = %w(user@example.com USER@foo.COM A_US-ER@foo.bar.org
       first.last@foo.jp alice+bob@baz.cn) 
-    valid_addresses.each do |valid_adress|
-      @user.email = valid_adress
-      assert @user.valid?, "#{ valid_adress.inspect } should be valid"
+    valid_addresses.each do |valid_address|
+      @user.email = valid_address
+      assert @user.valid?, "#{ valid_address.inspect } should be valid"
     end
   end
 
-  test "email validation shoul accept invalid addresses" do
-    invalid_addresses = %w(user@example,com user_at_foo.org user.name@example.
-      foo@bar_baz.com foo@bar+baz.com foo@bar..com) 
-    invalid_addresses.each do |invalid_adress|
-      @user.email = invalid_adress
-      assert_not @user.valid?, "#{ invalid_adress.inspect } should be invalid"
+  test "email validation shoul reject invalid addresses" do
+    invalid_addresses = %w[user@example,com user_at_foo.org user.name@example.
+      foo@bar_baz.com foo@bar+baz.com foo@bar..com] 
+    invalid_addresses.each do |invalid_address|
+      @user.email = invalid_address
+      assert_not @user.valid?, "#{invalid_address.inspect} should be invalid"
     end
   end
 
@@ -71,6 +71,10 @@ class UserTest < ActiveSupport::TestCase
   test "password should have minimum length" do
     @user.password = @user.password_confirmation = "a" * 5
     assert_not @user.valid?
+  end
+
+  test "authenticated? shoukd return false for a user with nil digest" do
+    assert_not @user.authenticated?('')
   end
 
 end
