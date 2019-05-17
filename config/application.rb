@@ -17,5 +17,6 @@ module SampleApp
 
     config.serve_static_assets = true
     config.assets.initialize_on_precompile = true
+    config.action_view.embed_authenticity_token_in_remote_forms = true
   end
 end
