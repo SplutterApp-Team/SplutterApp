@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  mount_uploader :avatar, AvatarUploader
+
   has_many :microposts, dependent: :destroy 
   # Наши подписчики (активные отношения)
   has_many :active_relationships, class_name: "Relationship",
@@ -22,6 +24,7 @@ class User < ApplicationRecord
                     uniqueness: { case_sensitive: false }
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
+  validate :avatar_size
 
   # Returns the hash digest of the given string.
   def User.digest(string)
@@ -108,5 +111,11 @@ class User < ApplicationRecord
     def create_activation_digest
       self.activation_token = User.new_token
       self.activation_digest = User.digest(activation_token)
+    end
+
+    def avatar_size
+      if avatar.size > 10.megabytes
+        errors.add(:avatar, "should be less then 10MB")
+      end
     end
 end
