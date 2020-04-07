@@ -37,6 +37,4 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-For help using the application, go to the project [documentation section]().
-For more information, see the 
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+For help with your application, go to the [*SplutterApp Documentation*](https://github.com/SplutterApp-Team/SplutterApp/wiki/SplutterApp-Documentation) section.
