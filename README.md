@@ -5,12 +5,6 @@ This project is based on the Ruby on Rails framework, using the PostgreSQL datab
 
 ![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/RubyOnRails.png)
 
-![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/PostgreSQL.png)
-
-![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/SendGrid.png)
-
-![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/CarrierWave.png)
-
 
 ## Note (License)
 
