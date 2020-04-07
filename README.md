@@ -1,15 +1,17 @@
 # SplutterApp
 This application implements the basic capabilities of such a well-known service as Twitter and is just an example.
 
-# Ruby on Rails Tutorial for run SplutterApp
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/Logos/Digital_ENV_Logo.png)
 
 This project is based on the Ruby on Rails framework, using the PostgreSQL database, the SendGrid & CarrierWave platforms.
 
-## License
+## NOTE - License
 
 All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
 is available jointly under the MIT License and the Beerware License. See
 [LICENSE.md](LICENSE.md) for details.
+
+# How to run SplutterApp project?
 
 ## Getting started
 
