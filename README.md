@@ -12,7 +12,7 @@ This project is based on the Ruby on Rails framework, using the PostgreSQL datab
 ![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/logos/CarrierWave.png)
 
 
-## NOTE - License
+## Note (License)
 
 All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
 is available jointly under the MIT License and the Beerware License. See
