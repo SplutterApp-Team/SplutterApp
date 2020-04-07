@@ -3,7 +3,13 @@ This application implements the basic capabilities of such a well-known service 
 
 This project is based on the Ruby on Rails framework, using the PostgreSQL database, the SendGrid & CarrierWave platforms.
 
-![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/RubyOnRails.png)
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/raw/Production/Logos/RubyOnRails.png)
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/PostgreSQL.png)
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/SendGrid.png)
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/Production/Logos/CarrierWave.png)
 
 
 ## Note (License)
