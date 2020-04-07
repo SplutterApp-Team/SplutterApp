@@ -1,9 +1,16 @@
 # SplutterApp
 This application implements the basic capabilities of such a well-known service as Twitter and is just an example.
 
-![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/Logos/Digital_ENV_Logo.png)
-
 This project is based on the Ruby on Rails framework, using the PostgreSQL database, the SendGrid & CarrierWave platforms.
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/logos/RubyOnRails.png)
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/logos/PostgreSQL.png)
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/logos/SendGrid.png)
+
+![image alt](https://github.com/SplutterApp-Team/SplutterApp/edit/Production/logos/CarrierWave.png)
+
 
 ## NOTE - License
 
