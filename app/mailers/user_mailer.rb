@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default :from => "sample_app@mail.com"
+  default :from => "splutter_app@mail.com"
 
   def account_activation(user)
     @user = user

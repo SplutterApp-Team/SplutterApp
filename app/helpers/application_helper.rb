@@ -1,7 +1,7 @@
 module ApplicationHelper
     # Возвращает полный заголовок для каждой страницы
     def full_title(page_title = '')
-        base_title = "Sample App"
+        base_title = "SplutterApp"
         if page_title.empty?
             base_title
         else 
