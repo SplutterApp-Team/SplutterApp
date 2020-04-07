@@ -1,14 +1,9 @@
 # SplutterApp
 This application implements the basic capabilities of such a well-known service as Twitter and is just an example.
 
-
-
 # Ruby on Rails Tutorial for run SplutterApp
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](https://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This project is based on the Ruby on Rails framework, using the PostgreSQL database, the SendGrid & CarrierWave platforms.
 
 ## License
 
