@@ -16,7 +16,7 @@ This project is based on the Ruby on Rails framework, using the PostgreSQL datab
 
 All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
 is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+[LICENSE.md](https://github.com/SplutterApp-Team/SplutterApp/blob/Production/LICENSE) for details.
 
 # How to run SplutterApp project?
 
